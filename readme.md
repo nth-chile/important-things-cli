@@ -1,25 +1,20 @@
 # important-things CLI
 
-A CLI for important-things.
+CLI created with [gluegun](https://infinitered.github.io/gluegun/)
 
-## Customizing your CLI
+## Installing
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
+1. `git clone git@github.com:nth-chile/important-things-cli.git`
+2. `cd important-things`
+3. `mkdir storage && echo '[]' >> storage/notes.json`
+4. `npm i`
+5. `npm link`
 
-## Publishing to NPM
+## Using
 
-To package your CLI up for NPM, do this:
+### Add new note
 
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
-```
+`important-things add "Remember to eat lasagna often"`
+### Get the note with the oldest lastSeen date -- the note you haven't seen for the longest time
 
-# License
-
-MIT - see LICENSE
-
+`important-things get "Remember to eat lasagna often"`
