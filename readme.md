@@ -17,4 +17,4 @@ CLI created with [gluegun](https://infinitered.github.io/gluegun/)
 `important-things add "Never stray from the Way."`
 ### Read the note with the oldest `lastSeen` date -- the note you haven't seen for the longest time
 
-`important-things get "Never stray from the Way."`
+`important-things get`
