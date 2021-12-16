@@ -6,7 +6,7 @@ CLI created with [gluegun](https://infinitered.github.io/gluegun/)
 
 1. `git clone git@github.com:nth-chile/important-things-cli.git`
 2. `cd important-things`
-3. `mkdir storage && echo '[]' >> storage/notes.json`
+3. `mkdir storage && echo '[]' >> src/storage/notes.json`
 4. `npm i`
 5. `npm link`
 
